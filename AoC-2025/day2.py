@@ -60,7 +60,7 @@ def part2(input):
     return invalid_ids_sum
 
 
-input = open("input2.txt", "r").read().rstrip()
+input = open("./AoC-2025/input2.txt", "r").read().rstrip()
 print(part1(input))
 print(part2(input))
 

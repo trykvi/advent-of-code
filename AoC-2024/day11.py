@@ -37,10 +37,10 @@ def part2(input):
     return result
 
 t0 = time.time()
-#print(part1(open("input11.txt", "r").read()))
-print(part2(open("input11.txt", "r").read()))
+print(part1(open("./AoC-2024/input11.txt", "r").read()))
+print(part2(open("./AoC-2024/input11.txt", "r").read()))
 t1 = time.time()
 
-print(len(memo.keys()))
+#print(len(memo.keys()))
 
 print(f"{(t1-t0)*1000:.2f}ms")
